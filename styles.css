@@ -7,7 +7,7 @@
 
 
 .hero {
-    background-color: #72f0ec;
+    background-color: #1726f1;
     text-align: center;
     padding: 160px 20px;
 
@@ -25,6 +25,7 @@ h1,h2,h3,h4 {
 }
 h1 {
     font-size: 76px;
+    color: var(--secondary-color);
 }
 .hero h2 {
     font-weight: normal;
@@ -40,3 +41,42 @@ h1 {
     line-height: 27px;
     padding: 15px 30px;
 }
+
+  
+  .btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
+  .project-desciption {
+    padding: 12px 60px;
+    background-color: #1726f1;
+    border-radius: 30px;
+  }
+  
+  @media (max-width: 900px) {
+    h1 {
+      font-size: 44px;
+      line-height: 2;
+    }
+  
+    h2 {
+      font-size: 44px;
+    }
+  
+    .hero {
+      padding: 80px 20px;
+    }
+  
+    .project-desciption {
+      padding: 0;
+      text-align: center;
+    }
+  }
+  p {
+    color: var(--secondary-color);
+  }
