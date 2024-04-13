@@ -1,0 +1,42 @@
+:root {
+    --branding-color: #fec3df;
+    --secondary-color: #ff89bf;
+}
+
+
+
+
+.hero {
+    background-color: #72f0ec;
+    text-align: center;
+    padding: 160px 20px;
+
+}
+
+.hero p {
+font-size: 36px;
+font-weight: bold ;
+margin: 0;
+}
+
+h1,h2,h3,h4 {
+    font-weight: bold;
+    color: var(--secondary-color) ;
+}
+h1 {
+    font-size: 76px;
+}
+.hero h2 {
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+    ;
+}
+.btn-branding {
+    background: var(--branding-color);
+    border-radius: 4px;
+    color: #1726f1;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
